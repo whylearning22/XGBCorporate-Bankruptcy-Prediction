@@ -2,6 +2,7 @@
 This repository provides the code to reproduce the experiments presented in the paper:
 
 **“Generalizable Machine Learning for Corporate Bankruptcy Prediction: An XGBoost-Based Framework”**
+accepted at IEEE CAI 2026 https://www.ieeesmc.org/cai-2026/
 
 The proposed framework is based on **XGBoost** and is designed for **highly imbalanced bankruptcy prediction**. The evaluation is conducted on three benchmark datasets (Taiwan, USA, Poland) under a **leakage-resistant pipeline** with **nested cross-validation** and consistent preprocessing.
 
@@ -16,6 +17,5 @@ The proposed framework is based on **XGBoost** and is designed for **highly imba
 - **Nested Cross-Validation**:
   - Outer loop: model assessment
   - Inner loop: hyperparameter tuning (grid search)
-- Baselines included: **Logistic Regression (LR)**, **Decision Tree (DT)**, **Random Forest (RF)**
 - Metrics: AUC, Recall, Accuracy, Macro-Recall, Macro-Precision, Macro-F1, Confusion Matrix
 - **Interpretability**: global feature importance from XGBoost (split frequency)
